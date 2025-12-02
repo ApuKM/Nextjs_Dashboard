@@ -24,6 +24,15 @@ export default function InvoiceStatus({ status }: { status: string }) {
           <CheckIcon className="ml-1 w-4 text-white" />
         </>
       ) : null}
+      {/* {status === "pending" ? (
+        <>Pending
+        <ClockIcon className="ml-1 w-4 text-gray-500" />
+        </>
+      ) : 
+        <>
+          Paid
+          <CheckIcon className="ml-1 w-4 text-white" />
+        </>} */}
     </span>
   );
 }
